@@ -1,0 +1,26 @@
+{
+  "name": "bunyan-newrelic-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwmckenna/bunyan-newrelic-stream.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwmckenna/bunyan-newrelic-stream/issues"
+  },
+  "homepage": "https://github.com/pwmckenna/bunyan-newrelic-stream#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-react-app": "^2.0.1"
+  },
+  "peerDependencies": {
+    "newrelic": "^1.34.0"
+  }
+}
