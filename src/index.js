@@ -2,7 +2,7 @@ import newrelic from 'newrelic';
 import { EventEmitter } from 'events';
 
 export default class extends EventEmitter {
-    write(error) {
-        newrelic.noticeError(error);
+    write({ name, message, stack, ...info }) {
+        newrelic.noticeError({ name, message, stack }, info);
     }
 }
