@@ -11,6 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/pwmckenna/bunyan-newrelic-stream.git"
   },
+  "keywords": [
+    "logging",
+    "log",
+    "bunyan",
+    "error",
+    "newrelic"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
