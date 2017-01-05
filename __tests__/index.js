@@ -34,6 +34,8 @@ it('bunyan-newrelic-stream', () => {
         }
     }));
 
+    logger.error('I am a test string');
+
     const defer = Q.defer();
     newrelic.shutdown({ collectPendingData: true }, defer.makeNodeResolver());
     return defer.promise;
