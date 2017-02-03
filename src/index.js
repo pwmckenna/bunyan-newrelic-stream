@@ -1,8 +1,9 @@
-import newrelic from 'newrelic';
 import { EventEmitter } from 'events';
 
 export default class extends EventEmitter {
     write({ err, ...options }) {
+        const newrelic = require('newrelic');
+
         if (
             typeof err === 'object' &&
             err.hasOwnProperty('stack') &&
