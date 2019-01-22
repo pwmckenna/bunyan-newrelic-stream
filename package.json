@@ -1,6 +1,6 @@
 {
   "name": "bunyan-newrelic-stream",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "",
   "main": "lib/index.js",
   "browser": "lib/browser.js",
@@ -27,8 +27,8 @@
   "homepage": "https://github.com/pwmckenna/bunyan-newrelic-stream#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
+    "@babel/preset-env": "^7.3.0",
     "babel-jest": "^23.6.0",
-    "babel-preset-react-app": "^7.0.0",
     "bunyan": "^1.8.12",
     "bunyan-error-serializer": "^1.1.0",
     "bunyan-prettystream": "^0.1.3",
@@ -40,6 +40,6 @@
   "peerDependencies": {
     "newrelic": "*"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
+ 
